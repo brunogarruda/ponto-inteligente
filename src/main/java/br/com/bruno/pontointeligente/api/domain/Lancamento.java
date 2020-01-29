@@ -18,8 +18,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 
-import org.assertj.core.annotations.Nullable;
-
 import br.com.bruno.pontointeligente.api.enums.TipoEnum;
 
 @Entity
@@ -36,10 +34,8 @@ public class Lancamento implements Serializable{
 	@NotNull
 	private Date data;
 	
-	@Nullable
 	private String descricao;
 	
-	@Nullable
 	private String localizacao;
 	
 	@Column(name = "data_criacao", nullable = false)
