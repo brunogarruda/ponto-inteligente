@@ -11,3 +11,4 @@ Tecnologias Utilizadas:
 - Flyway
 - Spring security
 - Heroku
+- Docker
