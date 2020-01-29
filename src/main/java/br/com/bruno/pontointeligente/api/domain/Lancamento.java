@@ -19,7 +19,9 @@ import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 
 import br.com.bruno.pontointeligente.api.enums.TipoEnum;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "lancamento")
 public class Lancamento implements Serializable{
