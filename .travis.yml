@@ -4,3 +4,6 @@ jdk:
 
 script:
 - echo "skipping tests"
+
+before_install:
+- chmod +x mvnw
