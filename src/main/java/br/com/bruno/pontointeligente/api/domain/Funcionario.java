@@ -22,8 +22,6 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.annotations.ManyToAny;
-
 import br.com.bruno.pontointeligente.api.enums.PerfilEnum;
 import lombok.Data;
 
