@@ -9,6 +9,10 @@ Tecnologias Utilizadas:
 - Spring-boot
 - Travis CI
 - Flyway
+- Zipkin
 - Spring security
 - Heroku
 - Docker
+
+Endereço do Zipkin:
+http://localhost:9411/zipkin/
